@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  /* background-color: rgba(136, 80, 170, 0.513);
+    padding-top: 2%;
+    padding-bottom: 2%;*/
+  position: sticky;
+  top: 0;
+  z-index: 1000; }
+  header li a {
+    text-decoration: none;
+    color: white;
+    transition: all .5s; }
+    header li a:hover {
+      transform: scale(1.2, 1.2); }
+  header nav {
+    background: #8750aa !important;
+    background: linear-gradient(90deg, #8750aa 44%, #c28de4 98%) !important; }
+    header nav img {
+      width: 120px;
+      padding: 4%; }
+      header nav img:hover {
+        transition: all 1.5s;
+        animation: roll 5s;
+        transform: rotate(360deg); }
+    header nav .navbar-nav {
+      text-align: center !important;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 16px; }
+      header nav .navbar-nav .nav-item {
+        padding: 3%; }
+      header nav .navbar-nav .active {
+        font-weight: 700; }
+      header nav .navbar-nav .navbar-brand {
+        width: 3rem !important; }
+        header nav .navbar-nav .navbar-brand:hover {
+          transition: all 1.5s;
+          animation: roll 5s;
+          transform: rotate(360deg); }
+    header nav .navbar-toggler {
+      fill: #48b979 !important; }
+      header nav .navbar-toggler .navbar-toggler-icon {
+        fill: #48b979 !important; }
