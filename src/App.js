@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
+import ClassComponent from './components/ClassComponent/ClassComponent';
+import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent';
+import Boton from './components/boton/Boton';
+
 
 function App() {
   return (
@@ -8,17 +12,9 @@ function App() {
       <NavBar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ClassComponent/>
+        <FunctionalComponent/>
+        <Boton/>
       </header>
     </div>
   );
