@@ -1,10 +1,10 @@
-import imgError from '../../assets/img/error.svg';
+import imgError from '../../assets/img/fondo.svg';
 import "./style.css";
 
 const FunctionalComponent = () => {
     return (
-        <div className="">
-            <img src={imgError} className="" alt="" />
+        <div className="bodyerror">
+            <img src={imgError} className="error2" alt="página en construcción" />
         </div>
     )
 } 

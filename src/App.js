@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import ClassComponent from './components/ClassComponent/ClassComponent';
@@ -11,9 +10,8 @@ function App() {
     <div className="App">
       <NavBar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <ClassComponent/>
         <FunctionalComponent/>
+        <ClassComponent/>
         <Boton/>
       </header>
     </div>

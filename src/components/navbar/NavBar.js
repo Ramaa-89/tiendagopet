@@ -1,8 +1,9 @@
 import React from 'react';
 import logob from '../../assets/img/logob.svg';
+import './navbar.css'
+import CardWidget from  '../cardWidget/CardWidget';
 
 const NavBar = () => {
-
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark">
@@ -28,18 +29,10 @@ const NavBar = () => {
                             <li className="nav-item">
                             <a className="nav-link text-light" href="#">Contacto</a>
                             </li>
-                            <li className="nav-item d-none d-md-block ">
-                            <a className="nav-link disabled text-black-70">CallVet <i className="fa-solid fa-phone"></i></a>
-                            </li>
-                            <li className="nav-item d-block d-sm-block d-md-none ">
-                            <a href="tel:1164116862;" className="nav-link text-light">CallVet <i className="fa-solid fa-phone"></i></a>
-                            </li>  
                         </ul>
                     </div>
                 </div>
-                <a className="col-1 carroCompra" href="#">
-                    <i className="fa-solid fa-cart-shopping"></i>
-                </a>
+                <CardWidget/>
                 </div>
             </nav>
         </header>
