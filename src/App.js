@@ -8,7 +8,7 @@ import Boton from './components/boton/Boton';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+        <NavBar/> 
       <header className="App-header">
         <FunctionalComponent/>
         <ClassComponent/>
