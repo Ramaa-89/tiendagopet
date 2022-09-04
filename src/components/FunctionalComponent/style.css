@@ -6,8 +6,7 @@
     transition:box-shadow 2s,transform 5s,filter 500ms ease-in-out;
 }
 .error2:hover {
-    /*transition: all 20s;*/
-    transition:ease-out 25s;
+    transition:ease-out 20s;
     animation:alternate;
     transform: scale(2); 
 }

@@ -1,8 +1,12 @@
+import Swal from 'sweetalert';
 import "./boton.css";
+
 
 const Boton = () => {
     const handleClick = () =>{
-        alert("Página en construcción");
+        Swal("Aplicación en construcción!", {
+            button: false,
+          });
     }
     return (
     <button className="btn btn-primary" onClick={handleClick}>Comprar</button>
