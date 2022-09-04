@@ -1,4 +1,7 @@
-.carrito{
-    width: 60px;
-    z-index: 2000;
+.widgetTop{
+    display: block;
+    text-align: center;
+}
+.widget{
+    width: 20%;
 }

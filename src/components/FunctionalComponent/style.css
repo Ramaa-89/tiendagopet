@@ -3,7 +3,13 @@
     vertical-align: middle;
     margin-bottom: 30%;
     margin-top: 0;
-
+    transition:box-shadow 2s,transform 5s,filter 500ms ease-in-out;
+}
+.error2:hover {
+    /*transition: all 20s;*/
+    transition:ease-out 25s;
+    animation:alternate;
+    transform: scale(2); 
 }
 .bodyError{
     background-color: #282c34;
