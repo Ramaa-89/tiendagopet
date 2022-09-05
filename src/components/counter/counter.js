@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert';
+import Boton from '../boton/Boton';
 import "./counter.css"
 
 const Counter = (props) => {
@@ -16,11 +17,13 @@ const Counter = (props) => {
 
     return (
         <>
-        <div className="descripcion">Seleccionaste {cantidad} monedas</div>
-        <div className="contador">
-            <button className="btn-counter btn btn-primary" onClick={restar} placeholder="-"> - </button>
-            <button className="btn-counter btn btn-primary" onClick={sumar} placeholder="+"> + </button>
-        </div>
+            <div className="contador">
+                <button className="btn-counter btn btn-primary" onClick={restar} placeholder="-"> - </button>
+                <div className="descripcion"> { cantidad } </div>
+                <button className="btn-counter btn btn-primary" onClick={sumar} placeholder="+"> + </button>
+            </div>
+            <Boton/>
+            <p></p>
         </>
     )
 

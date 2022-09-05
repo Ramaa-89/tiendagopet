@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './components/navbar/NavBar';
 import ClassComponent from './components/ClassComponent/ClassComponent';
 import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent';
-import Boton from './components/boton/Boton';
+import Footer from './components/footer/footer';
 import Counter from './components/counter/counter';
 
 
@@ -15,10 +15,9 @@ function App() {
       <header className="App-header">
         <FunctionalComponent/>
         <ClassComponent/>
-        <Boton/>
-
         <Counter  stock={stock} />
       </header>
+      <Footer/>
     </div>
   );
 }

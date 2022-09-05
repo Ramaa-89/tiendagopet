@@ -4,12 +4,25 @@
     margin-bottom: 30%;
     margin-top: 0;
     transition:box-shadow 2s,transform 5s,filter 500ms ease-in-out;
+    animation: cell 5s ease-in-out infinite alternate;
+    -webkit-animation: cell 15s ease-in-out infinite alternate;
+    z-index: 1010;
 }
-.error2:hover {
+@keyframes cell {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+    }
+}
+/*.error2:hover {
     transition:ease-out 20s;
     animation:alternate;
     transform: scale(2); 
-}
+}*/
 .bodyError{
     background-color: #282c34;
     min-height: 100vh;
