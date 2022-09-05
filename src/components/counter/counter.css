@@ -1,0 +1,16 @@
+.btn-counter{
+    border-radius: 50% !important;
+    color: rgb(45, 34, 126);
+    font-weight: bold;
+    font-size: .5em;
+    margin: .5em;
+    width: 30px;
+}
+.contador{
+    display: flex;
+    flex-direction: row;
+}
+.descripcion{
+    font-size: .7em;
+    margin-top: 4%;
+}
