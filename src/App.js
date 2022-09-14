@@ -4,6 +4,7 @@ import ClassComponent from './components/ClassComponent/ClassComponent';
 import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent';
 import Footer from './components/footer/footer';
 import Counter from './components/counter/counter';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 
 function App() {
@@ -13,8 +14,7 @@ function App() {
     <div className="App">
         <NavBar/> 
       <header className="App-header">
-        <FunctionalComponent/>
-        <ClassComponent/>
+        <ItemListContainer />
         <Counter  stock={stock} />
       </header>
       <Footer/>
