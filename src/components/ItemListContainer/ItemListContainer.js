@@ -22,7 +22,11 @@ const ItemListContainer = () => {
     
     return (
         <>
+        <div class="container">
+        <div class="row">
         <ItemList lista={productList} />
+        </div>
+        </div>
         </>
     );  
 };

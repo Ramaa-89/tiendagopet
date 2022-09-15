@@ -1,0 +1,12 @@
+.card-title{
+    color:rgb(56, 145, 204) !important;
+}
+.card-text{
+    color:rgb(56, 145, 204) !important;
+}
+.card-img-top{
+    width: 70%;
+}
+.card{
+    align-items: center;
+}
