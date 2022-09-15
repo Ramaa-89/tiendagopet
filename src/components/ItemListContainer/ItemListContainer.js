@@ -22,8 +22,8 @@ const ItemListContainer = () => {
     
     return (
         <>
-        <div class="container">
-        <div class="row">
+        <div className="container">
+        <div className="row">
         <ItemList lista={productList} />
         </div>
         </div>

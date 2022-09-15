@@ -18,7 +18,7 @@ const Footer = () => {
                 <div>
                     <p>BitShop - pagina creada por <a href="https://rmorales89.myportfolio.com/" target="_blank">RamDesign <i className="fa-solid fa-wand-magic-sparkles"></i></a></p>
                 </div>
-                <div class="redes">
+                <div className="redes">
                     <a href="https://www.facebook.com/"target="_blank"><img className="logo--redes"src={facebook} alt="Facebook"/></a>
                     <a href="https://www.instagra.com/"target="_blank"><img className="logo--redes"src={instagram} alt="Instagram"/></a>
                     <a href="https://www.twitter.com/"target="_blank"><img className="logo--redes"src={twitter} alt="Twitter"/></a>
