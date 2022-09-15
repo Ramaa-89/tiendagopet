@@ -8,14 +8,13 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 
 function App() {
-  const stock = 10
+  //const stock = 10
 
   return (
     <div className="App">
         <NavBar/> 
       <header className="App-header">
         <ItemListContainer />
-        <Counter  stock={stock} />
       </header>
       <Footer/>
     </div>

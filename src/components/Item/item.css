@@ -6,7 +6,11 @@
 }
 .card-img-top{
     width: 70%;
+    margin-top: 10%;
 }
 .card{
     align-items: center;
+}
+.card:hover{
+    transform: scale(1.1);
 }
