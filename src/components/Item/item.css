@@ -1,8 +1,10 @@
 .card-title{
-    color:rgb(56, 145, 204) !important;
+    color:rgb(0, 0, 0) !important;
+
 }
 .card-text{
     color:rgb(56, 145, 204) !important;
+    font-weight: bold;
 }
 .card-img-top{
     width: 70%;
@@ -10,6 +12,8 @@
 }
 .card{
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1rem black;
 }
 .card:hover{
     transform: scale(1.1);
